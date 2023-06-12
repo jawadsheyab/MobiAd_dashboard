@@ -1,0 +1,641 @@
+/* Start Main Rulz */
+
+* {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+body {
+    font-family: 'Arial';
+    background-color: #eaeaea;
+    height: auto
+}
+
+.container {
+	width: 1170px;
+	margin: auto
+}
+
+.clearfix {
+    clear: both
+}
+
+/* End Main Rulz */
+
+/* Start Header */
+
+.header .menu {
+    width: 100%;
+    overflow: hidden;
+    background-color: #FFF
+}
+
+.header .menu ul {
+    list-style: none
+}
+
+.header .menu ul:first-child {
+    float: left
+}
+
+.header .menu ul:last-child {
+    float: right
+}
+
+.header .menu ul li {
+    float: left;
+    padding: 0 10px;
+    cursor: pointer;
+    position: relative
+}
+
+.header .menu ul li:nth-child(2) {
+    font-weight: bold
+}
+
+.header .menu ul li img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -23px;
+    right: 15px
+}
+
+.header .menu ul li select {
+    border: 0;
+    outline: 0
+}
+
+/* End Header */
+
+/* Start Query Bar*/
+
+.query-bar .campaign {
+    padding: 10px;
+    overflow: hidden
+    
+}
+
+.query-bar .campaign ul {
+    list-style: none
+}
+
+.query-bar .campaign ul{
+    float: left
+}
+
+
+.query-bar .campaign ul li {
+    float: left
+}
+
+.query-bar .campaign h3 {
+    color: #747579;
+    text-transform: uppercase;
+    display: inline
+}
+
+.query-bar .campaign select {
+    width: 300px
+}
+
+.query-bar .campaign span {
+    color: #c467a4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold
+}
+
+.query-bar .campaign .right-ul {
+    margin-left: 100px
+}
+
+.query-bar .campaign .right-ul li {
+    margin: 0 7px
+}
+
+.query-bar .campaign .right-ul li:first-child {
+    color: #6193d4
+}
+
+.query-bar .campaign .right-ul li:nth-child(2), .right-ul li:nth-child(3) {
+    color: #c467a4;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.query-bar .campaign .right-ul li input[type='submit']{
+    color: #6193d4;
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: 0
+}
+
+.query-bar .campaign hr {
+    width: 98%;
+    height: 1px;
+    background: #000;
+    border: none;
+    margin: 0 20px
+    
+}
+
+/* End Query Bar*/
+
+/* Start items Bar */
+
+.items-bar .items ul {
+    list-style: none;
+    background-color: #FFF;
+    width: 98%;
+    margin-left: 20px;
+    border: 1px solid #949597;
+    border-radius: 10px;
+    padding: 10px
+}
+
+.items-bar .items ul li {
+    display: inline-block;
+    padding: 5px 100px
+}
+
+.items-bar .items ul li:first-child {
+    padding-left: 70px;
+    border-right: 1px solid #949597;
+    color: #622e90
+}
+
+.items-bar .items ul li:nth-child(2) {
+    border-right: 1px solid #949597;
+    color: #f89549
+}
+
+.items-bar .items ul li:nth-child(3) {
+    border-right: 1px solid #949597;
+    color: #d86797
+}
+
+.items-bar .items ul li:last-child {
+    border-right: 1px solid #949597;
+    color: #2483d7
+}
+
+
+/* End items Bar */
+
+/* Start Overview Graph */
+
+.overview .over-graph .over-box {
+    width: 70%;
+    height: auto;
+    background-color: #FFF;
+    margin-left: 20px;
+    float: left;
+    padding-bottom: 10px;
+    border: 1px solid #949597
+}
+
+.overview .over-graph .over-box h5 {
+    width: 100%;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #622e90;
+    margin-top: 0
+}
+
+/* End Overview Graph */
+
+/* Start Budget Section */
+
+.budget .budget-bar .budget-box {
+    width: 25%;
+    height: 470px;
+    background-color: #FFF;
+    margin-left: 20px;
+    float: left;
+    border: 1px solid #949597
+}
+
+.budget .budget-bar .budget-box h5 {
+    width: 100%;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #0b7dc3;
+    margin: 0
+}
+
+.budget .budget-bar .budget-box h4 {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    color: #0b7dc3;
+    margin: 0
+}
+
+.budget .budget-bar .budget-box span {
+    padding-left: 15px
+}
+
+.budget .budget-bar .budget-box h2 {
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: -54px;
+    text-transform: uppercase;
+    color: #0b7dc3
+}
+
+.budget .budget-bar .budget-box h3 {
+    background-color: #0b7dc3;
+    color: #FFF;
+    padding: 10px 25px
+}
+
+/* End Budget Section */
+
+/* Start Views Section */
+
+.views .views-graph .views-box {
+    width: 30%;
+    height: 650px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #FFF;
+    border: 1px solid #949597;
+    position: relative;
+    float: left
+}
+
+.views .views-graph .views-box h3 {
+    text-transform: uppercase;
+    color: #f7941c;
+    padding: 10px;
+    display: inline
+}
+
+.views .views-graph .views-box .heading i {
+    color: #f7941c;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    cursor: pointer
+}
+
+.views .views-graph .views-box .heading {
+    border-bottom: 7px solid #f7941c;
+    padding: 30px 5px
+}
+
+.views .views-graph .views-box .result {
+    padding: 10px 20px
+}
+
+.views .views-graph .views-box .result span:first-child {
+    color: #f7941c;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.views .views-graph .views-box .result p {
+    color: #8f919e
+}
+
+.views .views-graph .views-box .result p:last-child {
+    padding: 0;
+    margin: 0px 29px
+}
+
+.views .views-graph .views-box .result p i {
+    color: green;
+    position: absolute;
+    left: 23px;
+    top: 164px
+}
+
+.views .views-graph .views-box .result p span {
+    color: green;
+    font-weight: bold
+}
+
+.views .views-graph .views-box hr {
+    width: 93%;
+    height: 1px;
+    background: #949599;
+    border: 0
+}
+
+.views .views-graph .views-box .graph-info {
+    padding: 10px 20px
+}
+
+.views .views-graph .views-box .graph-info span {
+    color: #f7941c;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.views .views-graph .views-box .graph-info p {
+    color: #8f919e
+}
+
+.views .views-graph .views-box .graph-color {
+    position: relative;
+    left: 259px;
+    top: -25px
+}
+
+.views .views-graph .views-box .graph-color span {
+    color: #8f919e
+}
+
+.views .views-graph .views-box .graph-color i:first-child {
+    color: #f7941c;
+    position: absolute;
+    right: 357px;
+    top: -14px
+}
+
+.views .views-graph .views-box .graph-color i.lastweek {
+    color: #91919d;
+    position: absolute;
+    right: 357px;
+    top: 5px
+}
+
+.views .views-graph .views-box .details {
+    position: absolute;
+    bottom: 40px;
+    left: 236px;
+    color: #f7941c
+}
+
+.views .views-graph .views-box .nextdetails {
+    position: absolute;
+    bottom: 28px;
+    left: 310px;
+    color: #f7941c;
+    cursor: pointer
+}
+/* End Views Section */
+
+
+
+
+
+/* Start Clicks Section */
+
+.clicks .clicks-graph .clicks-box {
+    width: 30%;
+    height: 650px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #FFF;
+    border: 1px solid #949597;
+    position: relative;
+    float: left
+}
+
+.clicks .clicks-graph .clicks-box h3 {
+    text-transform: uppercase;
+    color: #c56897;
+    padding: 10px;
+    display: inline
+}
+
+.clicks .clicks-graph .clicks-box .heading i {
+    color: #c56897;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    cursor: pointer
+}
+
+.clicks .clicks-graph .clicks-box .heading {
+    border-bottom: 7px solid #c56897;
+    padding: 30px 5px
+}
+
+.clicks .clicks-graph .clicks-box .result {
+    padding: 10px 20px
+}
+
+.clicks .clicks-graph .clicks-box .result span:first-child {
+    color: #c56897;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.clicks .clicks-graph .clicks-box .result p {
+    color: #8f919e
+}
+
+.clicks .clicks-graph .clicks-box .result p:last-child {
+    padding: 0;
+    margin: 0px 29px
+}
+
+.clicks .clicks-graph .clicks-box .result p i {
+    color: green;
+    position: absolute;
+    left: 23px;
+    top: 164px
+}
+
+.clicks .clicks-graph .clicks-box .result p span {
+    color: green;
+    font-weight: bold
+}
+
+.clicks .clicks-graph .clicks-box hr {
+    width: 93%;
+    height: 1px;
+    background: #949599;
+    border: 0
+}
+
+.clicks .clicks-graph .clicks-box .graph-info {
+    padding: 10px 20px
+}
+
+.clicks .clicks-graph .clicks-box .graph-info span {
+    color: #c56897;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.clicks .clicks-graph .clicks-box .graph-info p {
+    color: #8f919e
+}
+
+.clicks .clicks-graph .clicks-box .graph-color {
+    position: relative;
+    left: 259px;
+    top: -25px
+}
+
+.clicks .clicks-graph .clicks-box .graph-color span {
+    color: #8f919e
+}
+
+.clicks .clicks-graph .clicks-box .graph-color i:first-child {
+    color: #c56897;
+    position: absolute;
+    right: 357px;
+    top: -14px
+}
+
+.clicks .clicks-graph .clicks-box .graph-color i.lastweek {
+    color: #91919d;
+    position: absolute;
+    right: 357px;
+    top: 5px
+}
+
+.clicks .clicks-graph .clicks-box .details {
+    position: absolute;
+    bottom: 40px;
+    left: 236px;
+    color: #c56897
+}
+
+.clicks .clicks-graph .clicks-box .nextdetails {
+    position: absolute;
+    bottom: 28px;
+    left: 310px;
+    color: #c56897;
+    cursor: pointer
+}
+/* End Clicks Section */
+
+/* Start Shares Section */
+
+.shares .shares-graph .shares-box {
+    width: 33%;
+    height: 650px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #FFF;
+    border: 1px solid #949597;
+    position: relative;
+    float: left
+}
+
+.shares .shares-graph .shares-box h3 {
+    text-transform: uppercase;
+    color: #0b7ec1;
+    padding: 10px;
+    display: inline
+}
+
+.shares .shares-graph .shares-box .heading i {
+    color: #0b7ec1;
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    cursor: pointer
+}
+
+.shares .shares-graph .shares-box .heading {
+    border-bottom: 7px solid #0b7ec1;
+    padding: 30px 5px
+}
+
+.shares .shares-graph .shares-box .result {
+    padding: 10px 20px
+}
+
+.shares .shares-graph .shares-box .result span:first-child {
+    color: #0b7ec1;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.shares .shares-graph .shares-box .result p {
+    color: #8f919e
+}
+
+.shares .shares-graph .shares-box .result p:last-child {
+    padding: 0;
+    margin: 0px 29px
+}
+
+.shares .shares-graph .shares-box .result p i {
+    color: green;
+    position: absolute;
+    left: 23px;
+    top: 164px
+}
+
+.shares .shares-graph .shares-box .result p span {
+    color: green;
+    font-weight: bold
+}
+
+.shares .shares-graph .shares-box hr {
+    width: 93%;
+    height: 1px;
+    background: #949599;
+    border: 0
+}
+
+.shares .shares-graph .shares-box .graph-info {
+    padding: 10px 20px
+}
+
+.shares .shares-graph .shares-box .graph-info span {
+    color: #0b7ec1;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.shares .shares-graph .shares-box .graph-info p {
+    color: #8f919e;
+}
+
+.shares .shares-graph .shares-box .graph-color {
+    position: relative;
+    left: 291px;
+    top: -25px
+}
+
+.shares .shares-graph .shares-box .graph-color span {
+    color: #8f919e
+}
+
+.shares .shares-graph .shares-box .graph-color i:first-child {
+    color: #0b7ec1;
+    position: absolute;
+    right: 389px;
+    top: -14px
+}
+
+.shares .shares-graph .shares-box .graph-color i.lastweek {
+    color: #91919d;
+    position: absolute;
+    right: 389px;
+    top: 5px
+}
+
+.shares .shares-graph .shares-box .details {
+    position: absolute;
+    bottom: 36px;
+    left: 278px;
+    color: #0b7ec1
+}
+
+.shares .shares-graph .shares-box .nextdetails {
+    position: absolute;
+    bottom: 25px;
+    left: 345px;
+    color: #0b7ec1;
+    cursor: pointer
+}
+
+/* End Shares Section */

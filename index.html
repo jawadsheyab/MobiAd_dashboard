@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javna Web Page</title>
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet"  href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/javna.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+        <!-- Chart.js Library For Graphs -->
+        
+    </head>
+    <body>
+        <!-- Start Header -->
+        
+        <div class="header">
+            <div class="menu">
+                <div class="container">
+                    <ul>
+                        <li> <img src="imgs/mobiad.png" alt="Mobiad pic"> </li>
+                        <li>Mobiad</li>
+                        <li>Dashboard</li>
+                        <li>Compaigns</li>
+                    </ul>
+                    <ul>
+                        <li>Account balance: $9797090.526</li> <!-- Dynamic Number -->
+                        <li>
+                            <select>
+                                <option value="zain">ZainJo</option>
+                                <option value="umniah">Umniah</option>
+                                <option value="orange">Orange</option>
+                                <option value="mada">Mada</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- End Header -->
+        
+        <!-- Start Query Bar -->
+        
+        <div class="query-bar">
+            <div class="campaign">
+                <div class="container">
+                    <ul>
+                        <li><h3>Campaign Name</h3></li>
+                        <li>
+                            <select>
+                                <option>Zain Cash MasterCard</option>
+                                <option>Zain Cash PayPal</option>
+                                <option>Zain Cash Visa</option>
+                            </select>
+                        </li>
+                        <li><span>Running</span></li>
+                    </ul>
+                        <ul class="right-ul">
+                            <li>Today</li>
+                            <li>FROM<input type="date" name="fromdate"/></li>
+                            <li>TO<input type="date" name="todate"/></li>
+                            <li><input type="submit" value="Go"></li>
+                        </ul>
+                    <div class="clearfix"></div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <!-- End Query Bar -->
+        
+        <!-- Start items Bar -->
+        
+        <div class="items-bar">
+            <div class="items">
+                <div class="container">
+                    <ul>
+                        <li>Overview</li>
+                        <li>Views</li>
+                        <li>Clicks</li>
+                        <li>Shares</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- End items Bar -->
+        
+        <!-- Start Overview Graph -->
+        
+        <div class="overview">
+            <div class="over-graph">
+                <div class="container">
+                    <div class="over-box">
+                        <h5>Overview</h5>
+                        <canvas id="myOverChart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- End Overview Graph -->
+        
+        <!-- Start Budget Section -->
+        <div class="budget">
+            <div class="budget-bar">
+                <div class="container">
+                    <div class="budget-box">
+                        <h5>Total Compaign Budget</h5>
+                        <h4>Budget</h4>
+                        <span>20000.000 &dollar;</span>
+                        <canvas id="canvas" width="300" height="300"></canvas>
+                        <h2>Amount Left</h2>
+                        <h3>19036.280 &dollar;</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Budget Section -->
+        
+        <div class="clearfix"></div>
+        
+        <!-- Start Views Section -->
+        <div class="views">
+            <div class="views-graph">
+                <div class="container">
+                    <div class="views-box">
+                        <div class="heading">
+                            <h3>Performance - Views</h3>
+                            <i class="fa fa-angle-right fa-5x"></i>
+                        </div>
+                        <div class="result">
+                            <p><span>18.8k</span> This Week Total Views</p>
+                            <p><i class="fa fa-sort-asc fa-2x"></i> <span>1.025 %</span> From Last Week</p>
+                        </div>
+                        <hr>
+                        <div class="graph-info">
+                            <span>18.6k</span>
+                            <p>Last Week Total Views</p>
+                        </div>
+                        <div class="graph-color">
+                            <i class="fa fa-minus fa-3x"></i>
+                            <span>This Week</span>
+                            <br>
+                            <i class="lastweek fa fa-minus fa-3x"></i>
+                            <span>Last Week</span>
+                        </div>
+                        <canvas id="myViewChart"></canvas>
+                        <p class="details">Details</p>
+                        <i class="nextdetails fa fa-angle-right fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Views Section -->
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!-- Start Clicks Section -->
+        <div class="clicks">
+            <div class="clicks-graph">
+                <div class="container">
+                    <div class="clicks-box">
+                        <div class="heading">
+                            <h3>Performance - Clicks</h3>
+                            <i class="fa fa-angle-right fa-5x"></i>
+                        </div>
+                        <div class="result">
+                            <p><span>115</span> This Week Total Clicks</p>
+                            <p><i class="fa fa-sort-asc fa-2x"></i> <span>35.294 %</span> From Last Week</p>
+                        </div>
+                        <hr>
+                        <div class="graph-info">
+                            <span>85</span>
+                            <p>Last Week Total Clicks</p>
+                        </div>
+                        <div class="graph-color">
+                            <i class="fa fa-minus fa-3x"></i>
+                            <span>This Week</span>
+                            <br>
+                            <i class="lastweek fa fa-minus fa-3x"></i>
+                            <span>Last Week</span>
+                        </div>
+                        <canvas id="myClicksChart"></canvas>
+                        <p class="details">Details</p>
+                        <i class="nextdetails fa fa-angle-right fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Clicks Section -->
+        
+         
+        <!-- Start Shares Section -->
+        <div class="shares">
+            <div class="shares-graph">
+                <div class="container">
+                    <div class="shares-box">
+                        <div class="heading">
+                            <h3>Performance - Shares</h3>
+                            <i class="fa fa-angle-right fa-5x"></i>
+                        </div>
+                        <div class="result">
+                            <p><span>6</span> This Week Total Shares</p>
+                            <p><i class="fa fa-sort-asc fa-2x"></i> <span>100 %</span> From Last Week</p>
+                        </div>
+                        <hr>
+                        <div class="graph-info">
+                            <span>0</span>
+                            <p>Last Week Total Shares</p>
+                        </div>
+                        <div class="graph-color">
+                            <i class="fa fa-minus fa-3x"></i>
+                            <span>This Week</span>
+                            <br>
+                            <i class="lastweek fa fa-minus fa-3x"></i>
+                            <span>Last Week</span>
+                        </div>
+                        <canvas id="mySharesChart"></canvas>
+                        <p class="details">Details</p>
+                        <i class="nextdetails fa fa-angle-right fa-5x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Shares Section -->
+        
+        <script src="js/javnajs.js"></script>
+    </body>
+    
+</html>
